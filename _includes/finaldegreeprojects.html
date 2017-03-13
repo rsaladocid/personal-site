@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>final degree projects</h1> <h6>Role: Co-supervisor and software architect</h6>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for project in site.data.finaldegreeprojects %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ project.title }}</h4>
+                                <h6><i class="fa fa-calendar"></i> {% if project.date %}{{ project.date }}{% else %}<span class="current">Current</span>{% endif %}</h6>
+                                {% if project.tags %}<h6><i class="fa fa-tags"></i> {{ project.tags }}</h6>{% endif %}
+                            </div>
+                            <p>{{ project.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

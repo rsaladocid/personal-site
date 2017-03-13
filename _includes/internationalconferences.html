@@ -1,0 +1,15 @@
+<div class="main-title">
+    <h1>international conferences</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="row ">
+            <div class="col-md-12">
+                {% for conference in site.data.internationalconferences %}
+                <p><strong>{{ conference.title }}</strong>. {{ conference.author }}. In <i>Proceedings of the {{ conference.booktitle }}</i>. {{ conference.year }}{% if conference.url %} <a href="{{ conference.url }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

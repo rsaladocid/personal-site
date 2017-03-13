@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>grants</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for grant in site.data.grants %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ grant.title }}</h4>
+                                <h5>{{ grant.institution }}</h5>
+                                <h6><i class="fa fa-calendar"></i> {{ grant.begin }} - {% if grant.end %}{{ grant.end }}{% else %}<span class="current">Current</span>{% endif %}</h6>
+                            </div>
+                            <p>{{ grant.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

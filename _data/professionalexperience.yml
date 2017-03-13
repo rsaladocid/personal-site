@@ -1,0 +1,12 @@
+- title: Full stack developer
+  company: University of Córdoba
+  begin: Mar 2017
+  description:
+  tags: "PHP, Symfony, MySQL"
+
+- title: Full stack developer
+  company: University of Córdoba
+  begin: Mar 2015
+  end: Sep 2015
+  description:
+  tags: "PHP, Symfony, MySQL, JavaScript, Bootstrap, Google Maps API, HighCharts API"

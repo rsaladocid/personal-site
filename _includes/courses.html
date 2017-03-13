@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>courses</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for course in site.data.courses %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ course.title }}</h4>
+                                <h5>{{ course.institution }}</h5>
+                                <h6><i class="fa fa-calendar"></i> {{ course.date }}</h6>
+                            </div>
+                            <p>{{ course.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

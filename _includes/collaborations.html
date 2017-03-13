@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>collaborations</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for collaboration in site.data.collaborations %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ collaboration.title }}</h4>
+                                <h5>{{ collaboration.institution }}</h5>
+                                <h6><i class="fa fa-calendar"></i> {{ collaboration.begin }} - {{ collaboration.end }}</h6>
+                            </div>
+                            <p>{{ collaboration.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

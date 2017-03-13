@@ -1,0 +1,27 @@
+<div class="main-title">
+    <h1>professional experience</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for job in site.data.professionalexperience %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ job.title }}</h4>
+                                <h5>{{ job.company }}</h5>
+                                <h6><i class="fa fa-calendar"></i> {{ job.begin }} - {% if job.end %}{{ job.end }}{% else %}<span class="current">Current</span>{% endif %}</h6>
+                                {% if job.tags %}<h6><i class="fa fa-tags"></i> {{ job.tags }}</h6>{% endif %}
+                            </div>
+                            <p>{{ job.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+title: Rubén Salado
+email: hello@rsaladocid.com
+description: >
+  I'm Rubén Salado, a PhD. student in computer science who is passionate about (but not limited to) data-centric computing: big data, data science, distributed architectures, and more
+url: "http://rsaladocid.com"
+
+twitter_username: rsaladocid
+github_username: rsaladocid
+linkedin_username: rsaladocid
+google_analytics: UA-93571020-1
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed

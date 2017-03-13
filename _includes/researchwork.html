@@ -1,0 +1,25 @@
+<div class="main-title">
+    <h1>research work</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for project in site.data.researchwork %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ project.title }}</h4>
+                                <h6><i class="fa fa-calendar"></i> {% if project.date %}{{ project.date }}{% else %}<span class="current">Current</span>{% endif %}</h6>
+                            </div>
+                            <p>{{ project.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

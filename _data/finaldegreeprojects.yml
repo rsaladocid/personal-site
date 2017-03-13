@@ -1,0 +1,18 @@
+- title: Interoperability between workflow management systems using MDE techniques
+  description:
+  tags: "Java, Vaadin, UML, ATL, XSLT, Acceleo, EMF"
+
+- title: Scalable data catalog management system
+  date: 2017
+  description:
+  tags: "Java, PrimeFaces, Dropbox API, Google OAuth2 API"
+
+- title: Development of a cross-platform data visualization system
+  date: 2016
+  description:
+  tags: "Java, SWT, HTML, CSS, JavaScript"
+
+- title: Workflow management system for educational data mining
+  date: 2015
+  description:
+  tags: "Java, Datapro4j, Weka"

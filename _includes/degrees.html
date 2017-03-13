@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>degrees</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for degree in site.data.degrees %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ degree.title }}</h4>
+                                <h5>{{ degree.institution }}</h5>
+                                <h6><i class="fa fa-calendar"></i> {{ degree.begin }} - {% if degree.end %}{{ degree.end }}{% else %}<span class="current">Current</span>{% endif %}</h6>
+                            </div>
+                            <p>{{ degree.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

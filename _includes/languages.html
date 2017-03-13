@@ -1,0 +1,26 @@
+<div class="main-title">
+    <h1>languages</h1>
+</div>
+
+<div class="content">
+    <div class="block-content ">
+        <div class="timeline">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="marker-holder">
+                        {% for language in site.data.languages %}
+                        <div class="marker">
+                            <div class="hgroup">
+                                <h4>{{ language.title }}</h4>
+                                <h5>{{ language.institution }}</h5>
+                                {% if language.date %}<h6><i class="fa fa-calendar"></i> {{ language.date }}</h6>{% endif %}
+                            </div>
+                            <p>{{ language.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
