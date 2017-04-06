@@ -1,3 +1,13 @@
+- title: Scala Programming for Data Science
+  institution: Big Data University
+  date: Apr 2017
+  description: "This learning path consisted of three courses: Scala 101, Spark Overview for Scala Analytics, and Data Science with Scala"
+
+- title: Spark Fundamentals
+  institution: Big Data University
+  date: Mar 2017
+  description: "This learning path consisted of five courses: Spark Fundamentals I, Spark Fundamentals II, Spark MLlib, Exploring Spark´s GraphX, and Analyzing Big Data in R using Apache Spark"
+
 - title: Data Science Fundamentals
   institution: Big Data University
   date: Feb 2017
