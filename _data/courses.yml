@@ -1,25 +1,25 @@
 - title: Scala Programming for Data Science
-  institution: Big Data University
+  institution: Cognitive Class
   date: Apr 2017
   description: "This learning path consisted of three courses: Scala 101, Spark Overview for Scala Analytics, and Data Science with Scala"
 
 - title: Spark Fundamentals
-  institution: Big Data University
+  institution: Cognitive Class
   date: Mar 2017
   description: "This learning path consisted of five courses: Spark Fundamentals I, Spark Fundamentals II, Spark MLlib, Exploring Spark´s GraphX, and Analyzing Big Data in R using Apache Spark"
 
 - title: Data Science Fundamentals
-  institution: Big Data University
+  institution: Cognitive Class
   date: Feb 2017
   description: "This learning path consisted of four courses: Data Science 101, Data Science Methodology, Data Science Hands-on with Open Source Tools, and R 101"
 
 - title: Hadoop Fundamentals
-  institution: Big Data University
+  institution: Cognitive Class
   date: Feb 2017
   description: "This learning path consisted of four courses: Hadoop 101, MapReduce and YARN, Moving Data into Hadoop, and Accessing Hadoop Data Using Hive"
 
 - title: Big Data Fundamentals
-  institution: Big Data University
+  institution: Cognitive Class
   date: Oct 2016
   description: "This learning path consisted of three courses: Big Data 101, Hadoop 101, and Spark Fundamentals I"
 
