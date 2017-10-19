@@ -2,26 +2,31 @@
   institution: Cognitive Class
   date: Apr 2017
   description: "This learning path consisted of three courses: Scala 101, Spark Overview for Scala Analytics, and Data Science with Scala"
+  cert: https://www.youracclaim.com/badges/7889cf8f-2c21-4c1c-b378-c5866a7d1c64/public_url
 
 - title: Spark Fundamentals
   institution: Cognitive Class
   date: Mar 2017
   description: "This learning path consisted of five courses: Spark Fundamentals I, Spark Fundamentals II, Spark MLlib, Exploring Spark´s GraphX, and Analyzing Big Data in R using Apache Spark"
+  cert: https://www.youracclaim.com/badges/b181633b-f81b-4060-8235-43ede20d3f28/public_url
 
 - title: Data Science Fundamentals
   institution: Cognitive Class
   date: Feb 2017
   description: "This learning path consisted of four courses: Data Science 101, Data Science Methodology, Data Science Hands-on with Open Source Tools, and R 101"
+  cert: https://www.youracclaim.com/badges/fa599d4a-0a81-4fb0-b8af-c8c5c1e3912a/public_url
 
 - title: Hadoop Fundamentals
   institution: Cognitive Class
   date: Feb 2017
   description: "This learning path consisted of four courses: Hadoop 101, MapReduce and YARN, Moving Data into Hadoop, and Accessing Hadoop Data Using Hive"
+  cert: https://www.youracclaim.com/badges/adae0805-d498-410a-bbb8-b78a17ba54ff/public_url
 
 - title: Big Data Fundamentals
   institution: Cognitive Class
   date: Oct 2016
   description: "This learning path consisted of three courses: Big Data 101, Hadoop 101, and Spark Fundamentals I"
+  cert: https://www.youracclaim.com/badges/285c3d82-d619-44b5-9f7e-c4c5d2938364/public_url
 
 - title: Online sales for the digital entrepreneur
   institution: IEI, Instituto de Economía Internacional de la Universitat d'Alacant (UA)
