@@ -11,7 +11,7 @@
                         {% for course in site.data.courses %}
                         <div class="marker">
                             <div class="hgroup">
-                                <h4>{{ course.title }}</h4>
+                                <h4>{{ course.title }}</h4>{% if course.cert %}  <a href="{{ course.cert }}" target="_blank"><i class="fa fa-certificate"></i></a>{% endif %}
                                 <h5>{{ course.institution }}</h5>
                                 <h6><i class="fa fa-calendar"></i> {{ course.date }}</h6>
                             </div>
