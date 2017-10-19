@@ -149,12 +149,10 @@ header img {
 
 .marker .hgroup h4 {
 	margin-bottom: 0;
-}
-
-.marker .hgroup h4 {
 	text-transform: none;
-    font-weight: 600;
+    	font-weight: 600;
 	font-size: 1.15em;
+	display: inline-block;
 }
 
 .marker .hgroup {
