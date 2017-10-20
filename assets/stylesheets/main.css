@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+p {
+    text-align: justify;
+}
+
 li {
     list-style: none;
 }
@@ -82,7 +86,7 @@ strong {
 }
 	
 .main-title h1 {
-	font-size: 15px;
+    font-size: 15px;
     font-weight: 800;
 }
 
@@ -128,14 +132,14 @@ header img {
 }
 
 .marker {
-	padding-left: 50px;
-	padding-top: 12px;
-	position: relative;
-	margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 12px;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .marker:after {
- 	background: #333;
+    background: #333;
     border: 3px solid #ffffff;
     content: "";
     height: 15px;
@@ -148,39 +152,39 @@ header img {
 }
 
 .marker .hgroup h4 {
-	margin-bottom: 0;
-	text-transform: none;
-    	font-weight: 600;
-	font-size: 1.15em;
-	display: inline-block;
+    margin-bottom: 0;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 1.15em;
+    display: inline-block;
 }
 
 .marker .hgroup {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .marker .hgroup h6 {
-	text-transform: none;
-	font-size: 12px;
-	color: #666666;	
+    text-transform: none;
+    font-size: 12px;
+    color: #666666;	
 }
 
 
 .marker .hgroup h6 i {
-	color: #cccccc;
-	margin-right: 5px;
+    color: #cccccc;
+    margin-right: 5px;
 }
 
 
 .marker .hgroup h6 span.current {
-	color: #ffffff;
-	background: #333;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-ms-border-radius: 6px;
-	-o-border-radius: 6px;
-	padding: 1px 5px;
+    color: #ffffff;
+    background: #333;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 1px 5px;
 }
 
 .marker .hgroup h6 span.current, .marker .hgroup h6  {
@@ -188,10 +192,10 @@ header img {
 }
 
 blockquote {
-	font-style: italic;
-	font-size: 1.5em;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 .highlight {
-	color: #666;
+    color: #666;
 }
