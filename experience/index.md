@@ -1,8 +1,8 @@
 ---
 layout      : default
 type        : content
-title       : Projects
-permalink   : /projects/
+title       : Experience
+permalink   : /experience/
 ---
 {% include professionalexperience.html %}
 {% include researchwork.html %}
