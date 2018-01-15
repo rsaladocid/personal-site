@@ -7,7 +7,7 @@
         <div class="row ">
             <div class="col-md-12">
                 {% for chapter in site.data.bookchapters %}
-                <p><strong>{{ chapter.chapter }}</strong>. {{ chapter.author }}. <i>{{ chapter.title }}</i>. {{ chapter.publisher }}. {{ chapter.year }}{% if chapter.url %} <a href="{{ chapter.url }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}</p>
+                <p><strong>{{ chapter.chapter }}</strong>. {{ chapter.author }}. In <i>{{ chapter.title }}</i>. {{ chapter.publisher }}. {{ chapter.year }}{% if chapter.url %} <a href="{{ chapter.url }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}</p>
                 {% endfor %}
             </div>
         </div>
